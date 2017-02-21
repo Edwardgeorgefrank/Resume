@@ -1,0 +1,101 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: right;
+    margin-right: 1em;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #0B8C8B;
+}
+
+.active {
+    background-color: #16C4C3;}
+
+
+/* Left column */
+img{padding-top:1.3em;
+	max-width:50%;
+max-height: 50%;}
+
+.left {
+	background-color:red;
+	float:left;
+	margin-top: 30px;
+	text-align: center;
+	min-width: 310px;
+	height: 100%;
+	max-width: 350px;
+	padding-right: 1em;
+
+
+}
+.left p { font-family: 'Antic Slab';font-size: 1.2em;
+	padding-left: 32px;
+	padding-right: 0px;
+
+
+}
+.left h1 {font-size: 3em;}
+
+.line {margin-left: 11em;
+width:.15em;
+height:3em;
+background-color: grey;}
+
+.left-sec {float:left;
+	background-color: blue;
+max-height: 100px;
+max-width:100px;
+}
+
+/*-------- right section here----- */
+
+.right-sec {float: right;
+background-color: yellow;
+height: 100%;
+width:100px;
+padding-right: 100px;
+margin: 0px 50px 0px 0px;}
+
+.right-sec p {float:left;
+text-decoration: none;
+font-family:'Antic Slab';font-size: 1.2em;
+padding-top: .8em;}
+
+/*<a href="https://www.behance.net/edwardfrancf82">
+				<img src="assets/behance.svg" alt="behance">
+
+/*----- Right col --------*/
+
+.right {float:left;
+	margin-top: 2em;
+	margin-left:12em;
+	padding:1em 5em 10em 5em;
+	background-color: green;
+text-align: center;}
+
+.yoobee {float:left;
+background-color: white;}
+
+.mds {}
+
+
+ 
